@@ -8,3 +8,10 @@ build/
 .pytest_cache/
 audit.jsonl
 data/audit_logs/
+*.pyo
+*.pyd
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
