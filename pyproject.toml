@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=72"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multi-tool-mcp"
+version = "0.1.0"
+description = "Enterprise MCP server with RBAC, audit logging, and secure multi-tool access"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=3.0.2",
+    "asyncpg>=0.30.0",
+    "httpx>=0.28.0",
+    "pydantic>=2.10.0",
+    "pydantic-settings>=2.7.0",
+    "python-dotenv>=1.0.1",
+    "structlog>=24.4.0",
+    "openai>=1.60.0",
+    "pyjwt>=2.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+    "faker>=24.0.0",
+]
+
+[project.scripts]
+multi-tool-mcp = "multi_tool_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["multi_tool_mcp*"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
