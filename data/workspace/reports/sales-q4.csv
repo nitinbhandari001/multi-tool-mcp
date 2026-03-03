@@ -1,0 +1,21 @@
+month,product,units_sold,revenue,region
+Oct,Widget Pro,142,$14,200,North
+Oct,Widget Basic,89,$4,450,North
+Oct,Widget Pro,98,$9,800,South
+Oct,Widget Basic,201,$10,050,South
+Oct,Service Pack,45,$13,500,North
+Nov,Widget Pro,167,$16,700,North
+Nov,Widget Basic,112,$5,600,North
+Nov,Widget Pro,134,$13,400,South
+Nov,Widget Basic,178,$8,900,South
+Nov,Service Pack,62,$18,600,North
+Dec,Widget Pro,198,$19,800,North
+Dec,Widget Basic,145,$7,250,North
+Dec,Widget Pro,223,$22,300,South
+Dec,Widget Basic,267,$13,350,South
+Dec,Service Pack,78,$23,400,North
+Dec,Widget Pro,156,$15,600,East
+Dec,Widget Basic,89,$4,450,East
+Dec,Service Pack,34,$10,200,East
+Dec,Widget Pro,112,$11,200,West
+Dec,Widget Basic,67,$3,350,West

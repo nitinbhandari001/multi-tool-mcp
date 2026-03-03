@@ -1,0 +1,17 @@
+{
+  "period": "Q4 2024",
+  "team_size": 12,
+  "metrics": {
+    "velocity": 87,
+    "bugs_closed": 142,
+    "features_shipped": 8,
+    "code_review_avg_hours": 3.2,
+    "test_coverage": 78
+  },
+  "top_performers": ["Alice", "Bob", "Carol"],
+  "action_items": [
+    "Improve test coverage to 85%",
+    "Reduce code review time",
+    "Hire 2 senior engineers"
+  ]
+}

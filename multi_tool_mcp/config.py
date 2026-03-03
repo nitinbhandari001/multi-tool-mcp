@@ -16,7 +16,7 @@ class Settings:
     db_pool_min: int = 2
     db_pool_max: int = 10
     db_query_timeout: int = 30
-    allowed_tables: str = "users,orders,products,logs,analytics"
+    allowed_tables: str = "demo_users,demo_orders,demo_products,demo_logs,demo_analytics"
     blocked_sql_keywords: str = "DROP,TRUNCATE,ALTER,GRANT,REVOKE"
     jwt_secret: str = ""
     jwt_algorithm: str = "HS256"
